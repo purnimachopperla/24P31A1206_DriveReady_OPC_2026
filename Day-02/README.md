@@ -1,58 +1,40 @@
-\# Day 02 – AI Agents Training
+# Day 2 – Prompts, Memory and Python Concepts
 
+## Task Description
 
+The objective of Day 2 was to improve the Sweet Crumbs Home Bakery chatbot by learning prompts, conversation memory, JSON, and important Python concepts.
 
-\## Topics Covered
+## Topics Covered
 
-\- Messages and roles (System, User, Assistant)
+- Messages and roles: system, user, and assistant.
+- System prompts using Role, Facts, Rules, and Format.
+- Few-shot prompting with examples.
+- Asking the AI model to return JSON.
+- Conversation memory using chat history.
+- Python dictionaries and JSON.
+- Functions and type hints.
+- Decorators.
+- Error handling using try/except.
 
-\- System prompts
+## Implementation
 
-\- Few-shot prompting
+- Created a bakery menu using a Python dictionary.
+- Designed a system prompt with bakery information and rules.
+- Used few-shot examples to classify customer messages.
+- Used a function to calculate item prices.
+- Added a decorator to log function calls.
+- Maintained conversation history so the chatbot could remember previous messages.
+- Limited the conversation history using `MAX_TURNS`.
+- Used try/except to handle errors gracefully.
 
-\- JSON responses
+## Technologies Used
 
-\- Chat memory and history
+- Python
+- Google Colab
+- Groq API
+- LangChain Groq
+- JSON
 
-\- Python dictionaries and JSON
+## Learning Outcome
 
-\- Functions and type hints
-
-\- Decorators
-
-\- Error handling using try/except
-
-
-
-\## Practical Task
-
-Created a Sweet Crumbs bakery chatbot using Python and an AI model.
-
-
-
-\## Features
-
-\- Bakery menu handling
-
-\- Customer order details in JSON format
-
-\- Conversation memory
-
-\- Error handling for API issues
-
-\- Order item and quantity extraction
-
-
-
-\## Files
-
-\- `Day-02.ipynb` – Notebook containing the Day 2 practice and implementation.
-
-\- `.env.example` – Example environment configuration.
-
-
-
-\## Learning Outcome
-
-Practised prompt engineering, memory handling, JSON processing, Python functions and error handling.
-
+Learned how to create structured prompts, maintain chatbot memory, work with JSON and dictionaries, use functions and decorators, classify customer messages, and handle errors gracefully.

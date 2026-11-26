@@ -1,50 +1,44 @@
-\# Day 01 - AI Agents Training
+\# Day 1 – Introduction to API Calls
 
 
 
-\## Topics Covered
+\## Task Description
 
-\- Introduction to Artificial Intelligence
-
-\- Connecting to the Groq API
-
-\- Using ChatGroq with Python
-
-\- Sending prompts to an AI model
-
-\- Creating an AI-powered bakery assistant
-
-\- Prompt Guard and safe prompt handling
+The objective of Day 1 was to understand how to connect a Python program to an AI model using an API and send prompts to the model.
 
 
 
-\## Practical Task
+\## Implementation
 
-Created a Sweet Crumbs bakery assistant using Python and an AI model.
+\- Loaded the Groq API key securely using environment variables.
+
+\- Connected to the Groq model using `ChatGroq`.
+
+\- Sent prompts to the AI model using `llm.invoke()`.
+
+\- Displayed the model's responses in Python.
 
 
 
-\## Tools and Technologies
+\## Technologies Used
 
 \- Python
 
 \- Google Colab
 
-\- LangChain
-
 \- Groq API
 
+\- LangChain Groq
 
 
-\## Files
 
-\- `Day-01.ipynb` - Notebook containing Day 1 practice and implementation.
+\## Output
 
-\- `.env.example` - Example environment configuration.
+Successfully connected to the Groq model and generated AI responses to the given prompts.
 
 
 
 \## Learning Outcome
 
-Learned how to connect to an AI model, send prompts, and build a basic AI assistant.
+Learned how to load an API key, connect to an AI model, send prompts, and receive responses using Python.
 
